@@ -48,11 +48,11 @@ export const categories = [
 export const popularProducts = [
     {
         id:1,
-        img: "https://w7.pngwing.com/pngs/63/280/png-transparent-jeans-denim-slim-fit-pants-bell-bottoms-jeans-blue-fashion-boy-thumbnail.png",
+        img: "https://img.freepik.com/free-photo/pink-sweater-front_125540-746.jpg?size=626&ext=jpg&ga=GA1.2.1352950483.1686247021&semt=ais",
     },
     {
         id:2,
-        img: "https://images.pexels.com/photos/1682699/pexels-photo-1682699.jpeg?auto=compress&cs=tinysrgb&w=1600",
+        img: "https://img.freepik.com/free-photo/elegance-color-apparel-clothes-clothing_1203-6544.jpg?size=626&ext=jpg&ga=GA1.1.1352950483.1686247021&semt=ais",
     },
     {
         id:3,
@@ -77,5 +77,17 @@ export const popularProducts = [
     {
         id:8,
         img: "https://m.media-amazon.com/images/I/71ts9CewHqL._SL1500_.jpg",
-    }
+    },
+    {
+        id:9,
+        img: "https://cdn.shopify.com/s/files/1/0279/5133/3450/products/MG_1592_fa6c4b23-0c4a-47a7-bbec-5567d719ec4a_1800x.jpg?v=1634730082",
+    },
+    {
+        id:10,
+        img: "https://cdn.shopify.com/s/files/1/0279/5133/3450/products/MG_1592_fa6c4b23-0c4a-47a7-bbec-5567d719ec4a_1800x.jpg?v=1634730082",
+    },
+    {
+        id:11,
+        img: "https://cdn.shopify.com/s/files/1/0279/5133/3450/products/MG_1592_fa6c4b23-0c4a-47a7-bbec-5567d719ec4a_1800x.jpg?v=1634730082",
+    },
 ]
