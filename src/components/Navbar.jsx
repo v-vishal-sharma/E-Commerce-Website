@@ -32,7 +32,7 @@ const SearchContainer = styled.div`
 `
 
 const Input = styled.input`
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid rgb(0, 128, 70);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -68,7 +68,7 @@ export default function Navbar() {
           <Language>EN</Language>
           <SearchContainer>
             <Input />
-            <Search style={{color:"gray", fontSize: 16}}/>
+            <Search style={{color:"rgb(0, 128, 70)", fontSize: 16}}/>
           </SearchContainer>
         </Left>
         <Center>
@@ -79,7 +79,7 @@ export default function Navbar() {
           <MenuItem>REGISTER</MenuItem>
           <MenuItem>SIGN IN</MenuItem>
           <MenuItem>
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={4} color="success">
               <ShoppingCartOutlined/>
             </Badge>
           </MenuItem>
