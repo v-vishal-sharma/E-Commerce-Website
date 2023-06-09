@@ -1,5 +1,6 @@
 import { Send } from "@mui/icons-material";
 import styled from "styled-components";
+import { mobile } from "../Responsive";
 
 const Container = styled.div`
     height: 60vh;
@@ -18,7 +19,9 @@ const Title = styled.h1`
 const Desc = styled.div`
     font-weight: 300;
     font-size: 24px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    ${mobile({textAlign: "center", fontSize: "16px"})};
+
 `;
 
 const InputContainer = styled.div`
@@ -27,6 +30,8 @@ const InputContainer = styled.div`
     display: flex;
     justify-content: space-between;
     border: 1px solid lightgray;
+    ${mobile({width: "80%"})};
+
 `;
 
 const Input = styled.input`
@@ -41,6 +46,8 @@ const Button = styled.button`
     background-color: teal;
     color: white;
     cursor: pointer;
+    ${mobile({flex: "2"})};
+    
 `;
 
 export default function Newsletter() {
