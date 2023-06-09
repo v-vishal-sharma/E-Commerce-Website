@@ -32,6 +32,12 @@ const SocialIcon = styled.div`
     align-items: center;
     justify-content: center;
     margin-right: 20px;
+    cursor: pointer;
+
+    &:hover{
+        opacity: 0.5;
+        transition: all 0.3s ease;
+    }
 `;
 
 const Center = styled.div`
@@ -54,6 +60,11 @@ const List = styled.ul`
 const ListItem = styled.li`
     width: 50%;
     margin-bottom: 10px;
+    cursor: pointer;
+
+    &:hover{
+        text-decoration: underline;
+    }
 `; 
 
 const Right = styled.div`
